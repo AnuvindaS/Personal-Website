@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700;900&display=swap');
+ body{
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+ }
+ .container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+ }
+
+ header{
+    background-color:  #1b4b54;
+    color: white;
+    padding: 10px 0;
+ }
+
+ header nav{
+    float: right;
+    margin-top: 10px;
+ }
+ header ul{
+    margin: 0;
+    padding: 0;
+ }
+ header li{
+    display: inline;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+ }
+ header a{
+    color: white;
+    text-decoration: none;
+    
+ }
+ header a:hover{
+    color: #f4af1a;
+ }
+ #caption{
+    float: left;
+ }
+ #caption h1{
+    margin:0;
+ }
+ header .logo-gold{
+    color:#f4af1a ;
+ }
+#Hero{
+    min-height: 500px ;
+    background-image: url(bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#Hero h4{
+    font-size: 25px;
+    margin-top: 160px;
+    margin-bottom: 0%;
+    text-align: center;
+}
+#Hero h1{
+    font-size: 75px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #f4af1a;
+    font-family: 'Dancing Script', cursive;
+}
+#Hero button{
+    text-align: 19px;
+    background-color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    color: #1b4b54;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#Hero button:hover{
+    background-color: #1b4b54;
+    color: white;
+    border: 1px solid #f4af1a;
+}
