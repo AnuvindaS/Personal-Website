@@ -85,3 +85,44 @@
     color: white;
     border: 1px solid #f4af1a;
 }
+#separate{
+    padding: 5 px;
+    background-color: #1b4b54;
+}
+#about{
+    padding: 120px 0;
+    background-color: white;
+}
+#about h2{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #1b4b54;
+}
+.about-box1{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+.about-box1 img{
+    display: black;
+    margin: auto;
+}
+.about-box2{
+    width: 60%;
+    float: right;
+    padding: 10px;
+    text-align: justify ;
+}
+#about button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #1b4b54;
+    color: #1b4b54;
+    padding: 8px 20px;
+}
+#about button:hover{
+    background-color: #1b4b54;
+    color: white;
+    border: 1px solid white;
+}
