@@ -7,7 +7,10 @@
     <title>Anuvinda Sathyan</title>
     <link rel="icon" type="image/png" href="logo.png" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js">
+    <script src="script.js"></script>
   </head>
+
   <body>
     <header>
       <div class="container">
@@ -56,54 +59,65 @@
     <section id="skills">
       <div class="container">
         <div>
-          <h2>Skills</h2>
+          <h2>My Skills</h2>
+          <div class="box card card-1">
           <img src="html.png" alt="" height="100px" width="100px" />
           <h3>Web Development</h3>
           <p>
             Web development refers to the creating, building, and maintaining of
-            websites. It includes aspects such as web design, web publishing,
-            web programming, and database management. It is the creation of an
-            application that works over the internet i.e. websites.
+            websites. 
           </p>
+        </div>
+        <div class="box card card-1">
           <img src="paint-palette.png" alt="" height="100px" width="100px" />
           <h3>Design</h3>
           <p>
             Design is the process of imagining and planning the creation of
-            objects, systems, buildings, vehicles, etc. It is about creating
-            solutions for people.
+            objects, systems, buildings, vehicles, etc. 
           </p>
+        </div>
+        <div class="box card card-1">
           <img src="coding.png" alt="" height="100px" width="100px" />
           <h3>Coding</h3>
           <p>
             Coding is the process of creating instructions for computers using
-            programming languages. Coding is used to program the websites, apps,
-            and other technologies we interact with every day
+            programming languages. 
           </p>
+        </div>
         </div>
       </div>
     </section>
+    <section style="background-color: #1b4b54;">
+        <br>
     <section id="forms">
       <div class="container">
         <h2>Let's Connect</h2>
-        <form action="">
-          <div>
+        <form onsubmit="return validation()">
+          <div class="form-group">
             <label for="name">Name:</label>
-            <input type="text" name="" id="" />
+            <input type="text" name="" id="name-input" />
+            <p id="name-validation">Enter name</p>
+
           </div>
-          <div>
+          <div class="form-group">
             <label for="email">Email:</label>
-            <input type="email" name="" id="" />
+            <input type="email" name="" id="email-input" />
+            <p id="email-validation">Email cannot be empty</p>
+           
           </div>
-          <div>
+          <div class="form-group">
             <label for="message">Message:</label>
-            <textarea name="" id="" cols="42" rows="5"></textarea>
+            <textarea name="" id="message-input" cols="42" rows="5" tabindex="4"></textarea>
+            <p id="message-validation">Enter message</p>
           </div>
-          <div>
+          <div class="form-group">
             <input class="button" type="submit" />
           </div>
         </form>
       </div>
     </section>
+    <br>
+</section>
     <footer>
       <div class="container">
         <p>AnuvindaSathyan &copy; 2023 | All Rights Reserved</p>
